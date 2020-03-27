@@ -5,9 +5,6 @@ export const snackbar = {
     show: false,
   },
   mutations: {
-    SET_SHOW (state, data) {
-      state.show = data
-    },
     SET_TEXT (state, data) {
       state.text = data
     },
