@@ -8,6 +8,8 @@ export const snackbar = {
     DEV (state, data) {
       state.show = data
     },
-    
+    DEV_BRANDON (state, data) {
+      state.show = data
+    },
   }
 }
