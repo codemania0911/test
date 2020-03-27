@@ -5,7 +5,7 @@ export const snackbar = {
     show: false,
   },
   mutations: {
-    TEST (state, data) {
+    MAX (state, data) {
       state.color = data
     },
   },
