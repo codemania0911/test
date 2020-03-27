@@ -14,6 +14,9 @@ export const snackbar = {
     SET_COLOR (state, data) {
       state.color = data
     },
+    TEST (state, data) {
+      state.color = data
+    },
   },
   actions: {
     showSnackBar ({ commit }, data) {
