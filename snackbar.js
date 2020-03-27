@@ -5,7 +5,13 @@ export const snackbar = {
     show: false,
   },
   mutations: {
-    TEST (state, data) {
+    SET_SHOW (state, data) {
+      state.show = data
+    },
+    SET_TEXT (state, data) {
+      state.text = data
+    },
+    SET_COLOR (state, data) {
       state.color = data
     },
   },
